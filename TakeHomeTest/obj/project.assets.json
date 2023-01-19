@@ -442,9 +442,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/oscar/Projects/TakeHomeTest/TakeHomeTest/TakeHomeTest.csproj",
-      "projectName": "TakeHomeTest",
-      "projectPath": "/Users/oscar/Projects/TakeHomeTest/TakeHomeTest/TakeHomeTest.csproj",
+      "projectUniqueName": "/Users/oscar/Projects/TakeHomeTest/TakeHomeTest/API.csproj",
+      "projectName": "API",
+      "projectPath": "/Users/oscar/Projects/TakeHomeTest/TakeHomeTest/API.csproj",
       "packagesPath": "/Users/oscar/.nuget/packages/",
       "outputPath": "/Users/oscar/Projects/TakeHomeTest/TakeHomeTest/obj/",
       "projectStyle": "PackageReference",

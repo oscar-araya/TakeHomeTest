@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dwuXEQQ0bh0LC8nmqafdbKmLs87ZIUMqh6u3mufuyaBLHwZyBosdfO4QMQr+BlarlT5VeZJoSmVrRUYY/Dv/Ew==",
+  "dgSpecHash": "df6Xjfxoo5rXK7M/5H+osWpzr1H94oJFmK39GkiTj31gqN3nsGnqYRLiqZ3Tm3210F7doG1/8CVcrWGgJg+e6w==",
   "success": true,
-  "projectFilePath": "/Users/oscar/Projects/TakeHomeTest/TakeHomeTest/TakeHomeTest.csproj",
+  "projectFilePath": "/Users/oscar/Projects/TakeHomeTest/TakeHomeTest/API.csproj",
   "expectedPackageFiles": [
     "/Users/oscar/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/Users/oscar/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
