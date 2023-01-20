@@ -16,7 +16,7 @@ namespace BusinessLogic.Formatter
 		{
 		}
 
-        public string Format(List<TokensDTO> tokens)
+        public string Format(List<LineTokensDTO> tokens)
         {
             string formattedOutput = string.Empty;
 
@@ -25,7 +25,7 @@ namespace BusinessLogic.Formatter
             return formattedOutput;
         }
 
-        private string FormatLine(TokensDTO lineTokens)
+        private string FormatLine(LineTokensDTO lineTokens)
         {
             string line = string.Empty;
 

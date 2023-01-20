@@ -12,7 +12,7 @@ namespace BusinessLogic.Formatter
 {
 	public interface IFormatter
 	{
-		string Format(List<TokensDTO> tokens);
+		string Format(List<LineTokensDTO> tokens);
 	}
 }
 

@@ -18,9 +18,9 @@ namespace BusinessLogic.Parsers
 		{
 		}
 
-        public List<TokensDTO> Parse(string input)
+        public List<LineTokensDTO> Parse(string input)
         {
-            List<TokensDTO> tokens = new List<TokensDTO>();
+            List<LineTokensDTO> tokens = new List<LineTokensDTO>();
 
             List<string> lines = GetLines(input.Trim());
 
@@ -34,9 +34,9 @@ namespace BusinessLogic.Parsers
             return input.Split(Environment.NewLine, StringSplitOptions.RemoveEmptyEntries).ToList();
         }
 
-        private TokensDTO ParseLine(string line)
+        private LineTokensDTO ParseLine(string line)
         {
-            TokensDTO lineTokens = new TokensDTO();
+            LineTokensDTO lineTokens = new LineTokensDTO();
 
             lineTokens.Tokens = line.Split(DELIMITERS, StringSplitOptions.RemoveEmptyEntries).ToList();
 

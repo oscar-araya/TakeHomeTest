@@ -8,7 +8,7 @@
 using System;
 namespace BusinessLogic.DTO
 {
-	public class TokensDTO
+	public class LineTokensDTO
 	{
 		public List<string> Tokens { get; set; } = new List<string>();
 	}
