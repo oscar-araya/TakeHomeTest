@@ -29,9 +29,9 @@ namespace BusinessLogic.Formatter
         {
             string line = string.Empty;
 
-            lineTokens.Tokens.ForEach(token => line += $"[{token}]");
+            lineTokens.Tokens.ForEach(token => line += $"[{token}] ");
 
-            return line;
+            return line.Trim();
         }
     }
 }
