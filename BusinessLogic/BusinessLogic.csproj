@@ -6,4 +6,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Parsers\" />
+    <None Remove="Services\" />
+    <None Remove="Formatter\" />
+    <None Remove="DTO\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Parsers\" />
+    <Folder Include="Services\" />
+    <Folder Include="Formatter\" />
+    <Folder Include="DTO\" />
+  </ItemGroup>
 </Project>
