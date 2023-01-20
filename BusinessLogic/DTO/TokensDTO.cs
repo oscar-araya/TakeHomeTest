@@ -10,7 +10,7 @@ namespace BusinessLogic.DTO
 {
 	public class TokensDTO
 	{
-		public List<string> Tokens { get; set; }
+		public List<string> Tokens { get; set; } = new List<string>();
 	}
 }
 
