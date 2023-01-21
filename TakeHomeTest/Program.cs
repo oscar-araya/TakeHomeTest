@@ -6,8 +6,8 @@ using BusinessLogic.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers(c => c.InputFormatters.Insert(c.InputFormatters.Count, new TextPlainInputFormatter()));
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

@@ -25,9 +25,9 @@ namespace BusinessLogic.Services
 
         public string ProcessInput(string input)
         {
-            List<LineTokensDTO> tokens = _parser.Parse(input);
+            var lines = _parser.Parse(input);
 
-            return _formatter.Format(tokens);
+            return _formatter.Format(lines);
         }
     }
 }

@@ -12,7 +12,7 @@ namespace BusinessLogic.Parsers
 {
 	public interface IParser
 	{
-		List<LineTokensDTO> Parse(string input);
+		List<LineTokens> Parse(string input);
 	}
 }
 

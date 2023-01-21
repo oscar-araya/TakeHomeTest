@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 
-namespace API.Controllers
+namespace BusinessLogic.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -24,7 +24,7 @@ namespace API.Controllers
 
         [HttpPost("/FormatCSV")]
         [Consumes("text/plain")]
-        public IActionResult Post([FromBody] string csvInput)
+        public IActionResult FormatCSV([FromBody] string csvInput)
         {
             string response = _processInputService.ProcessInput(csvInput);
             return Ok(response);
