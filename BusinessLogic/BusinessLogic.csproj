@@ -11,11 +11,13 @@
     <None Remove="Services\" />
     <None Remove="Formatter\" />
     <None Remove="DTO\" />
+    <None Remove="Validators\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Parsers\" />
     <Folder Include="Services\" />
     <Folder Include="Formatter\" />
     <Folder Include="DTO\" />
+    <Folder Include="Validators\" />
   </ItemGroup>
 </Project>

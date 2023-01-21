@@ -11,6 +11,7 @@ namespace BusinessLogic.Services
 	public interface IProcessInputService
 	{
 		string ProcessInput(string input);
+		void ValidateInput(string input);
 	}
 }
 

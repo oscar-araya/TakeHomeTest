@@ -36,11 +36,15 @@ namespace BusinessLogic.Parsers
 
         private LineTokens ParseLine(string line)
         {
-            var lineTokens = new LineTokens();
+            try
+            {
+                var lineTokens = new LineTokens();
 
-            lineTokens.Tokens = line.Split(DELIMITERS, StringSplitOptions.RemoveEmptyEntries).ToList();
+                lineTokens.Tokens = line.Split(DELIMITERS, StringSplitOptions.RemoveEmptyEntries).ToList();
 
-            return lineTokens;
+                return lineTokens;
+            }
+            catch { throw new Exception($"Error paring line: {line}"); }
         }
     }
 }
