@@ -1,7 +1,9 @@
 # TakeHomeTest
 Developer Candidate Take Home Test
 
-Considerations
+-----------------
+Considerations  
+-----------------
 
 When coding the project I tried to accommodate a completely generic solution. Meaning, the REST API could take any CSV formatted string and return 
 the desired string format. To achieve this I created a custom Input Formatter to handle the deserialization of the input string, and then I configured 
@@ -12,7 +14,11 @@ At some point I considered using a less generic approach, since the input exampl
 what would parse the input into a model class, mapping each field to a class property. Since the requirements of the assignment don’t mentioned anything 
 about having a fixed format for the input, I decided to go with the more generic solution.
 
-Regarding the implementation.
+--------------------------------
+Regarding the implementation   
+--------------------------------
+
+The source code is written on C#, using .Net Core 6.0, with Visual Studio for Mac (although the Visual Studio version shouldn't really matter)
 
 My goal when creating the solution was to achieve the requested functionality but also keep each class simple and concise. I am using dependency injection 
 to achieve loose coupling, making the code more flexible. Taking that into consideration, I decided to create class to parse the input and another class 
